@@ -3,4 +3,4 @@
 var program = require('commander');
 var userArgs = process.argv.splice(2);
 
-console.log(userArgs);
+console.log(userArgs.join(' '));

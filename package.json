@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/tylerpeterson/confluence-user-status/issues"
   },
-  "homepage": "https://github.com/tylerpeterson/confluence-user-status"
+  "homepage": "https://github.com/tylerpeterson/confluence-user-status",
+  "dependencies": {
+    "keychain": "0.0.4"
+  }
 }

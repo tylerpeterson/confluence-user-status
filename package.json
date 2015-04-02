@@ -1,0 +1,22 @@
+{
+  "name": "confluence-user-status",
+  "version": "0.1.0",
+  "description": "Dirty command-line utility for setting your user status in confluence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylerpeterson/confluence-user-status.git"
+  },
+  "keywords": [
+    "confluence"
+  ],
+  "author": "Tyler Peterson <petersontb@familysearch.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerpeterson/confluence-user-status/issues"
+  },
+  "homepage": "https://github.com/tylerpeterson/confluence-user-status"
+}

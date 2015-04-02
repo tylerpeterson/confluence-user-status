@@ -2,7 +2,10 @@
   "name": "confluence-user-status",
   "version": "0.1.0",
   "description": "Dirty command-line utility for setting your user status in confluence.",
-  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "cuss": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

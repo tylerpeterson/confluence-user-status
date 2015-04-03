@@ -64,11 +64,14 @@ keychain.getPassword({account: confluenceUser, service: url.parse(confluenceUrl)
                 // For some reason can't get reading of the old status message to work in PhantomJS
                 // in the meantime snap a picture when no message is set.
                 setTimeout(function () {
-                  debug('Snapping picture');
+                  debug('Snapping picture to snap.png');
                   page.render('snap.png', function () {
                     ph.exit();          
                   });
                 }, 30);
+              } else {
+                debug('skipping snapshot');
+                ph.exit();          
               }
             }, message);
           })
